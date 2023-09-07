@@ -1,0 +1,68 @@
+/* BODY */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d9e8ae;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* ENCABEZADO */
+h1 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CAMPOS DE ENTRADA */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ffbd87;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* BOTON DE CALCULAR */
+#calculateButton {
+    background-color: #ffbd87;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#calculateButton:hover {
+    background-color: #f7e8a6;
+}
